@@ -23,7 +23,7 @@ namespace Attendance.Controller
         public List<Employee> GetValues()
         {
             var emp = new EmployeeBusiness();
-           var xx = emp.Employees();
+            var xx = emp.Employees();
             return xx;
         }
         //[HttpPost]
